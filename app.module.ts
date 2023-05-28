@@ -7,9 +7,10 @@ import { BodyHomeComponent } from './body-home/body-home.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
+import { CursoEmAndamentoComponent } from './curso-em-andamento/curso-em-andamento.component';
 
 @NgModule({
-  declarations: [AppComponent, BodyHomeComponent, HeaderComponent, NavbarComponent, CardComponent],
+  declarations: [AppComponent, BodyHomeComponent, HeaderComponent, NavbarComponent, CardComponent, CursoEmAndamentoComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
