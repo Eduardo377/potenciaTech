@@ -36,3 +36,8 @@ aside {
 .proximosCursos h1 {
   margin-top: 0;
 }
+
+.aside {
+  background-color: black;
+  color: white;
+}

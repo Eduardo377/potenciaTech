@@ -10,7 +10,14 @@ import { CardComponent } from './card/card.component';
 import { CursoEmAndamentoComponent } from './curso-em-andamento/curso-em-andamento.component';
 
 @NgModule({
-  declarations: [AppComponent, BodyHomeComponent, HeaderComponent, NavbarComponent, CardComponent, CursoEmAndamentoComponent],
+  declarations: [
+    AppComponent,
+    BodyHomeComponent,
+    HeaderComponent,
+    NavbarComponent,
+    CardComponent,
+    CursoEmAndamentoComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

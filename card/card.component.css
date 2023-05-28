@@ -5,6 +5,8 @@
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
+  background-color: #11151e;
+  color: white;
 }
 
 .card img {
