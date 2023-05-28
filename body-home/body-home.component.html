@@ -3,10 +3,25 @@
     <div class="banner">
       <img src="/assets/images/Banner.png" alt="" />
     </div>
+
     <div class="aulaEmAndamento">
       <h3>Trilha de Programação - Nível: Novato</h3>
       <h2>Aulas em andamento</h2>
-      <img src="/assets/images/Rectangle 180.png" alt="" />
+      <!-- <img src="/assets/images/Rectangle 180.png" alt="" /> -->
+      <div class="card">
+        <app-card
+          class="card-content1"
+          style="background-image: url('assets/images/Rectangle 180.png')"
+        >
+          <h3>Card Title</h3>
+          <p>Card description goes here.</p>
+          <a href="#" class="btn">Saiba mais</a>
+        </app-card>
+      </div>
+      routerLinkActive="router-link-active"
+      <button class="continuarAula" [routerLink]="['/cursoEmAndamento']">
+        Continuar aula
+      </button>
     </div>
     <div class="proximosCursos">
       <h3>Trilha de Programação - Nível: Novato</h3>
